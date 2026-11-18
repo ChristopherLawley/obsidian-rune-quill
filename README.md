@@ -1,4 +1,4 @@
-# Markdown Handoff for Rune & Quill
+# Send to Rune and Quill
 
 Send a Markdown note from Obsidian to Rune & Quill on iPhone or iPad. Rune & Quill imports it as a PDF that you can read and mark up.
 
@@ -14,7 +14,7 @@ The import file can be up to 2 MiB. The plugin omits YAML properties, renders wi
 
 ## Install manually
 
-Download `main.js` and `manifest.json` from the [latest release](https://github.com/ChristopherLawley/obsidian-rune-quill/releases/latest). Place both files in `.obsidian/plugins/runepen-import/` inside your vault, then enable **Markdown Handoff** under **Settings → Community plugins**. The send command is available on iPhone and iPad.
+Download `main.js` and `manifest.json` from the [latest release](https://github.com/ChristopherLawley/obsidian-rune-quill/releases/latest). Place both files in `.obsidian/plugins/runepen-import/` inside your vault, then enable **Send to Rune and Quill** under **Settings → Community plugins**. The send command is available on iPhone and iPad.
 
 ## Privacy
 
