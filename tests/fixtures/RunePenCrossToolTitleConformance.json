@@ -1,0 +1,86 @@
+[
+  {
+    "name": "soft-hyphen",
+    "input": "release­notes",
+    "envelope": {
+      "version": 1,
+      "title": "releasenotes",
+      "vault": "Drafts",
+      "sourcePath": "drafts://open?uuid=soft-hyphen",
+      "folderPath": "",
+      "markdown": "# Body\n"
+    }
+  },
+  {
+    "name": "format-controls-and-tag",
+    "input": "a­b⁪c󠀁",
+    "envelope": {
+      "version": 1,
+      "title": "abc",
+      "vault": "Drafts",
+      "sourcePath": "drafts://open?uuid=format-controls-and-tag",
+      "folderPath": "",
+      "markdown": "# Body\n"
+    }
+  },
+  {
+    "name": "bidi-formatting",
+    "input": "safe‮title⁦",
+    "envelope": {
+      "version": 1,
+      "title": "safetitle",
+      "vault": "Drafts",
+      "sourcePath": "drafts://open?uuid=bidi-formatting",
+      "folderPath": "",
+      "markdown": "# Body\n"
+    }
+  },
+  {
+    "name": "joiner-only",
+    "input": "‌‍",
+    "envelope": {
+      "version": 1,
+      "title": "Untitled",
+      "vault": "Drafts",
+      "sourcePath": "drafts://open?uuid=joiner-only",
+      "folderPath": "",
+      "markdown": "# Body\n"
+    }
+  },
+  {
+    "name": "emoji-zwj",
+    "input": "👩‍💻 planning",
+    "envelope": {
+      "version": 1,
+      "title": "👩‍💻 planning",
+      "vault": "Drafts",
+      "sourcePath": "drafts://open?uuid=emoji-zwj",
+      "folderPath": "",
+      "markdown": "# Body\n"
+    }
+  },
+  {
+    "name": "persian-zwnj",
+    "input": "می‌خواهم",
+    "envelope": {
+      "version": 1,
+      "title": "می‌خواهم",
+      "vault": "Drafts",
+      "sourcePath": "drafts://open?uuid=persian-zwnj",
+      "folderPath": "",
+      "markdown": "# Body\n"
+    }
+  },
+  {
+    "name": "mixed-script",
+    "input": "Roadmap العربية 中文",
+    "envelope": {
+      "version": 1,
+      "title": "Roadmap العربية 中文",
+      "vault": "Drafts",
+      "sourcePath": "drafts://open?uuid=mixed-script",
+      "folderPath": "",
+      "markdown": "# Body\n"
+    }
+  }
+]

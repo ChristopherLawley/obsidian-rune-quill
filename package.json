@@ -1,0 +1,32 @@
+{
+  "name": "runepen-import",
+  "version": "1.0.0",
+  "description": "Send the current Obsidian Markdown note directly to Rune & Quill on iPhone or iPad.",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Christopher Lawley",
+    "url": "https://theuntitled.site"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.mjs production",
+    "verify-build": "node esbuild.config.mjs verify",
+    "dev": "node esbuild.config.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src tests --max-warnings=0",
+    "test": "node --disable-warning=ExperimentalWarning --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "24.0.14",
+    "esbuild": "0.28.2",
+    "eslint": "9.39.5",
+    "eslint-plugin-obsidianmd": "0.6.0",
+    "obsidian": "1.14.4",
+    "typescript": "5.8.3",
+    "typescript-eslint": "8.73.0"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

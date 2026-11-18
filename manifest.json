@@ -1,0 +1,10 @@
+{
+  "id": "runepen-import",
+  "name": "Markdown Handoff",
+  "version": "1.0.0",
+  "minAppVersion": "1.15.0",
+  "description": "Send Markdown notes to Rune & Quill as PDFs on iPhone and iPad.",
+  "author": "Christopher Lawley",
+  "authorUrl": "https://theuntitled.site",
+  "isDesktopOnly": false
+}
